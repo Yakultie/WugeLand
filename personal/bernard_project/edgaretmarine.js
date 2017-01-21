@@ -1,9 +1,17 @@
 console.log("back off hackerssss");
+
 var money = 100;
 money_p = document.getElementById('money_p')
 money_p.innerHTML = money + " $"
+
 love = 0;
+love_p = document.getElementById('love_p');
+love_p.innerHTML = love + "	&#9829;"
+
 hot = 0;
+hot_p = document.getElementById('hot_p');
+hot_p.innerHTML = hot + " Hotness &#9832";
+
 torso= $("#bernard_torso")
 torso_width = $("#bernard_torso").width();
 function getFat() {
@@ -12,4 +20,9 @@ function getFat() {
 	torso_width += 10;
 	console.log(torso_width)
 	document.getElementById("bernard_torso").style.width= torso_width+"px";
+	money= money-10;
+	money_p.innerHTML = money + " $"
+	if (money<0) {
+		location.reload();
+	}
 }
