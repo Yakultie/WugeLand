@@ -57,6 +57,7 @@ body{
 	margin-top: 255px;
 	position: absolute;
 	background-color: ;
+	border-radius: 10px;
 }
 #bernard_left_arm{
 	width:150px;
@@ -66,6 +67,7 @@ body{
 	transform: rotate(-30deg);
 	position: absolute;
 	background-color: ;
+	border-radius: 5px;
 }
 #bernard_right_arm{
 	width:75px;
@@ -75,6 +77,7 @@ body{
 	transform: rotate(300deg);
 	position: absolute;
 	background-color: ;
+	border-radius: 5px;
 }
 #bernard_left_leg{
 	width:75px;
@@ -118,8 +121,8 @@ body{
 }
 
 .button{
-	height: 100px;
-	width: 200px;
+	height: 150px;
+	width: 300px;
 	position: absolute;
 	background-color: #33cc33;
 	font-family: 'VT323', monospace;
