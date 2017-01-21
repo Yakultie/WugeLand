@@ -118,5 +118,29 @@ body{
 }
 
 .button{
-	
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	background-color: #33cc33;
+	font-family: 'VT323', monospace;
+	font-size: 30px;
+}
+.button:hover{
+	background-color: #009933;
+}
+#but1{
+	margin-top: 15%;
+	margin-left: 10%;
+}
+#but2{
+	margin-top: 35%;
+	margin-left: 10%;
+}
+#but3{
+	margin-left:70%;
+	margin-top: 15%;
+}
+#but4{
+	margin-top: 35%;
+	margin-left: 70%;
 }
