@@ -1,3 +1,6 @@
+body{
+	font-family: 'VT323', monospace;
+}
 #game_div{
 	width: 1600px;
 	height: 900px;
@@ -112,4 +115,8 @@ body{
 	font: Impact;
 	font-size: 40px;
 	font-family: 'VT323', monospace;
+}
+
+.button{
+	
 }

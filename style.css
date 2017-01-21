@@ -11,7 +11,7 @@ body{
 	margin-top: 30px;
 }
 #title_div{
-	margin-left: 35%;
+	margin-left: 40%;
 }
 
 .button{
@@ -27,4 +27,9 @@ a{
 }
 .button:hover{
 	background-color: #0099ff;
+}
+#bs{
+	text-align: center;
+	font-family: Impact;
+	font-size: 20px;
 }
