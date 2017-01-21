@@ -20,7 +20,7 @@ body{
 	color: #99ff33;
 	font-family: 'VT323', monospace;
 	font-weight:bold;
-
+	transition: 2s;
 }
 
 #money_div{
@@ -70,6 +70,7 @@ body{
 	position: absolute;
 	background-color: ;
 	border-radius: 10px;
+	transition: 1s;
 }
 #bernard_left_arm{
 	width:150px;
