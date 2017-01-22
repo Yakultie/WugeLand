@@ -42,7 +42,7 @@ function workout(){
 	hot_p.innerHTML = hot + "/100 Hotness &#9832";
 	money = money-5;
 	money_p.innerHTML = money + " $"
-	ab_value = hot/100
+	ab_value = hot/100;
 	abs.style.opacity = ab_value;
 	if (money<0) {
 		alert("YOU LOOSE");
@@ -51,7 +51,7 @@ function workout(){
 	if (hot>99) {
 		if (love>99) {
 			alert("YOU WIN")
-			window.location.href = "tarinee.io";
+			// window.location.href = "http://tarinee.io";
 		}
 	}
 }
@@ -64,7 +64,7 @@ function makeItRain(){
 	if (hot>99) {
 		if (love>99) {
 			alert("YOU WIN")
-			window.location.href = "tarinee.io";
+			// window.location.href = "http://tarinee.io";
 		}
 	}
 	if (money<0) {
