@@ -32,7 +32,7 @@ function getFat() {
 }
 
 function hacking(){
-	money= money+1;
+	money= money+10;
 	money_p.innerHTML = money + " $"
 
 }

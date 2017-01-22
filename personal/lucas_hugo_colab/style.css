@@ -1,0 +1,53 @@
+body{
+	background:linen;
+}
+
+#game_window {
+  width: 1000px;
+  height: 1000px;
+  border-style: solid;
+  border-width: 5px;
+  margin: auto;
+  border-radius: 25px;
+  background-image: url("http://www.clipartkid.com/images/522/mountain-and-forest-powerpoint-backgrounds-travel-discover-the-vw0oTd-clipart.png");
+  background-size: 1000px 1000px;
+  background-repeat: no-repeat;
+}
+
+#h1 {
+  font-size: 50px;
+  font-family: impact;
+  text-align: center;
+  width: 1010px;
+  align: auto;
+
+}
+
+#loading_bar {
+  height: 20px;
+  width: 600px;
+}
+
+#loading_div {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+  text-align: center;
+  height
+}
+.button_style{
+  background-color: transparent;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  color:white;
+  height:75px;
+  width:200px;
+  font-family:impact;
+  font-size:30px;
+  margin-left:375px;
+  margin-top: 100px;
+  box-shadow: 0 9px #999;
+  cursor: pointer;
+}
+.button_style:hover {background-color: #3e8e41}
