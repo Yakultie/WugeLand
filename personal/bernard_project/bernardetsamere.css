@@ -61,7 +61,7 @@ body{
 	margin-left:100px ;
 	margin-top:50px ;
 	position: absolute;
-} 
+}
 #mouth{
 	height:20px;
 	width:100px;
@@ -151,6 +151,7 @@ body{
 }
 .button:hover{
 	background-color: #009933;
+	cursor: pointer;
 }
 #but1{
 	margin-top: 15%;
@@ -167,4 +168,9 @@ body{
 #but4{
 	margin-top: 35%;
 	margin-left: 70%;
+}
+
+#abs{
+	height: 200px;
+	opacity: 0;
 }

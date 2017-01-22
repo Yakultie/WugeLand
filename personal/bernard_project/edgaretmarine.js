@@ -1,5 +1,7 @@
 console.log("back off hackerssss");
 
+abs=document.getElementById('abs');
+
 var money = 100;
 money_p = document.getElementById('money_p')
 money_p.innerHTML = money + " $"
@@ -41,6 +43,14 @@ function hacking(){
 function workout(){
 	hot= hot+1;
 	hot_p.innerHTML = hot + "/100 Hotness &#9832";
+	money = money-5;
+	money_p.innerHTML = money + " $"
+	ab_value = hot/100
+	abs.style.opacity = ab_value;
+	if (money<0) {
+		alert("YOU LOOSE");
+		location.reload();
+	}
 	if (hot>99) {
 		if (love>99) {
 			alert("YOU WIN")
@@ -50,10 +60,21 @@ function workout(){
 function makeItRain(){
 	love = love+50;
 	love_p.innerHTML = love + "/100	&#9829;"
+
 	money = money-500;
 	money_p.innerHTML = money + " $"
 	if (money<0) {
 		alert("YOU LOOSE");
 		location.reload();
 	}
+}
+
+function smile(){
+
+}
+
+function cheat() {
+	money=100000000;
+	love=50;
+	hot=90;
 }
