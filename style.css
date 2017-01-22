@@ -33,3 +33,6 @@ a{
 	font-family: Impact;
 	font-size: 20px;
 }
+a:hover{
+	cursor: pointer;
+}
