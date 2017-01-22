@@ -31,18 +31,27 @@ function getFat() {
 function hacking(){
 	money= money+1;
 	money_p.innerHTML = money + " $"
+	if (hot>99) {
+		if (love>99) {
+			alert("YOU WIN")
+		}
+	}
 }
 
 function workout(){
 	hot= hot+1;
 	hot_p.innerHTML = hot + "/100 Hotness &#9832";
+	if (hot>99) {
+		if (love>99) {
+			alert("YOU WIN")
+		}
+	}
 }
 function makeItRain(){
 	love = love+50;
 	love_p.innerHTML = love + "/100	&#9829;"
 	money = money-500;
 	money_p.innerHTML = money + " $"
-	if()
 	if (money<0) {
 		alert("YOU LOOSE");
 		location.reload();
