@@ -2,7 +2,7 @@
 html,body{
 	font-family: 'VT323', monospace;
 	height= 100%;
-	
+
 }
 #game_div{
 	width: 1600px;
@@ -70,6 +70,7 @@ body{
 	border: 1px solid black;
 	margin-top: 100px;
 	margin-left: 26px;
+	transition: 1s;
 }
 #bernard_torso{
 	width:225px;
@@ -166,6 +167,14 @@ body{
 	margin-left:70%;
 	margin-top: 15%;
 }
+#hacking_gif{
+	position: absolute;
+	height: 150px;
+	width:300px;
+	margin-left:70%;
+	margin-top: 15%;
+}
+
 #but4{
 	margin-top: 35%;
 	margin-left: 70%;

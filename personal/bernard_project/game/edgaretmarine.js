@@ -3,6 +3,8 @@ alert("please zoom out to 75% for optimum experience")
 
 abs=document.getElementById('abs');
 
+$("#hacking_gif").hide();
+
 var money = 100;
 money_p = document.getElementById('money_p')
 money_p.innerHTML = money + " $"
@@ -22,9 +24,14 @@ function getFat() {
 	console.log(torso_width)
 	torso_width += 10;
 	console.log(torso_width)
-	document.getElementById("bernard_torso").style.width= torso_width+"px";
+
 	money= money-10;
 	money_p.innerHTML = money + " $"
+	document.getElementById('mouth').style.height="40px";
+	setTimeout(function () {
+		document.getElementById('mouth').style.height="15px";
+		document.getElementById("bernard_torso").style.width= torso_width+"px";
+	}, 1000);
 	if (money<0) {
 		alert("YOU LOOSE");
 		location.reload();
@@ -34,6 +41,11 @@ function getFat() {
 function hacking(){
 	money= money+10;
 	money_p.innerHTML = money + " $"
+	document.getElementById('id')
+	$("#hacking_gif").show();
+	setTimeout(function () {
+		$("#hacking_gif").hide();
+	}, 1500);
 
 }
 
