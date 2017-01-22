@@ -1,4 +1,5 @@
 console.log("back off hackerssss");
+alert("please zoom out to 75%")
 
 abs=document.getElementById('abs');
 
