@@ -1,5 +1,5 @@
 console.log("back off hackerssss");
-alert("please zoom out to 75%")
+alert("please zoom out to 75% for optimum experience")
 
 abs=document.getElementById('abs');
 
@@ -34,11 +34,7 @@ function getFat() {
 function hacking(){
 	money= money+1;
 	money_p.innerHTML = money + " $"
-	if (hot>99) {
-		if (love>99) {
-			alert("YOU WIN")
-		}
-	}
+
 }
 
 function workout(){
@@ -55,6 +51,7 @@ function workout(){
 	if (hot>99) {
 		if (love>99) {
 			alert("YOU WIN")
+			window.location.href = "tarinee.io";
 		}
 	}
 }
@@ -64,6 +61,12 @@ function makeItRain(){
 
 	money = money-500;
 	money_p.innerHTML = money + " $"
+	if (hot>99) {
+		if (love>99) {
+			alert("YOU WIN")
+			window.location.href = "tarinee.io";
+		}
+	}
 	if (money<0) {
 		alert("YOU LOOSE");
 		location.reload();

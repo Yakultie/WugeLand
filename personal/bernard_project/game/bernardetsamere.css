@@ -2,6 +2,7 @@
 html,body{
 	font-family: 'VT323', monospace;
 	height= 100%;
+	
 }
 #game_div{
 	width: 1600px;
