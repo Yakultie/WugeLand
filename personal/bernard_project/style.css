@@ -1,0 +1,21 @@
+body{
+	background-color: linen;
+}
+p{
+	text-align: center;
+	font-family: 'VT323', monospace;
+	font-size: 30px;
+}
+#bs{
+	font-size: 15px;
+}
+button{
+	height: 60px;
+	width: 700px;
+	margin-left: 27%;
+	margin-top: 50px;
+	font-family: 'VT323', monospace;
+}
+a{
+	font-size: 25px;
+}
