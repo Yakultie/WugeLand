@@ -45,7 +45,7 @@ function hacking(){
 	$("#hacking_gif").show();
 	setTimeout(function () {
 		$("#hacking_gif").hide();
-	}, 1500);
+	}, 200);
 
 }
 
