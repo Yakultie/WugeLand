@@ -56,6 +56,12 @@ function workout(){
 	money_p.innerHTML = money + " $"
 	ab_value = hot/100;
 	abs.style.opacity = ab_value;
+	console.log(torso_width)
+	if (torso_width>225) {
+
+		torso_width -= 10;
+		document.getElementById("bernard_torso").style.width= torso_width+"px";
+	}
 	if (money<0) {
 		alert("YOU LOOSE");
 		location.reload();
