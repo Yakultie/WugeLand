@@ -28,9 +28,11 @@ function getFat() {
 	money= money-10;
 	money_p.innerHTML = money + " $"
 	document.getElementById('mouth').style.height="40px";
+	document.getElementById('mouth').style.width="80px";
 	setTimeout(function () {
 		document.getElementById('mouth').style.height="15px";
 		document.getElementById("bernard_torso").style.width= torso_width+"px";
+		document.getElementById('mouth').style.width="100px";
 	}, 1000);
 	if (money<0) {
 		alert("YOU LOOSE");

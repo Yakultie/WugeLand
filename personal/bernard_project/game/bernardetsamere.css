@@ -72,6 +72,22 @@ body{
 	margin-left: 26px;
 	transition: 1s;
 }
+#dc1{
+	background-color: black;
+	height:2px;
+	width:80px;
+	position: absolute;
+	margin-top:15px;
+	margin-left: 40px;
+}
+#dc2{
+	background-color: black;
+	height:2px;
+	width:80px;
+	position: absolute;
+	margin-top:20px;
+	margin-left: 40px;
+}
 #bernard_torso{
 	width:225px;
 	height: 200px;
@@ -182,5 +198,7 @@ body{
 
 #abs{
 	height: 200px;
+	margin-left: 30px;
 	opacity: 0;
+	margin-top: -3px;
 }
