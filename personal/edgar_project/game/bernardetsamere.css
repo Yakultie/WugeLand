@@ -1,0 +1,204 @@
+
+html,body{
+	font-family: 'VT323', monospace;
+	height= 100%;
+
+}
+#game_div{
+	width: 1600px;
+	height: 900px;
+	border:2px solid black;
+	padding: inherit;
+	background-image: url("restaurant.jpg") ;
+	background-size: 1600px 900px;
+}
+body{
+	background-color: #DBBFB6;
+}
+.stats_p{
+	font-size: 60px;
+	font-family: Imapct;
+	color: #99ff33;
+	font-family: 'VT323', monospace;
+	font-weight:bold;
+	transition: 2s;
+}
+
+#money_div{
+	margin-left: 50px;
+	margin-top: -30px;
+}
+#love_div{
+	position: absolute;
+	margin-left: 40%;
+	margin-top: -160px;
+}
+#hot_div{
+	position: absolute;
+	margin-top: -160px;
+	margin-left: 70%;
+}
+
+#bernard_head{
+	width:150px;
+	height: 150px;
+	margin-left: 700px;
+	margin-top: 100px;
+	position: absolute;
+	background-color: ;
+}
+#l_eye{
+	height: 15px;
+	width: 27px;
+	background-color: black;
+	margin-left:30px ;
+	margin-top: 50px;
+	position: absolute;
+}
+#r_eye{
+	height: 15px;
+	width: 27px;
+	background-color: black;
+	margin-left:100px ;
+	margin-top:50px ;
+	position: absolute;
+}
+#mouth{
+	height:20px;
+	width:100px;
+	background-color: black;
+	border: 1px solid black;
+	margin-top: 100px;
+	margin-left: 26px;
+	transition: 1s;
+}
+#dc1{
+	background-color: black;
+	height:2px;
+	width:80px;
+	position: absolute;
+	margin-top:15px;
+	margin-left: 40px;
+}
+#dc2{
+	background-color: black;
+	height:2px;
+	width:80px;
+	position: absolute;
+	margin-top:20px;
+	margin-left: 40px;
+}
+#bernard_torso{
+	width:225px;
+	height: 200px;
+	margin-left: 660px;
+	margin-top: 255px;
+	position: absolute;
+	background-color: ;
+	border-radius: 10px;
+	transition: 1s;
+}
+#bernard_left_arm{
+	width:150px;
+	height: 75px;
+	margin-left: 550px;
+	margin-top: 300px;
+	transform: rotate(-30deg);
+	position: absolute;
+	background-color: ;
+	border-radius: 5px;
+}
+#bernard_right_arm{
+	width:75px;
+	height: 150px;
+	margin-left: 890px;
+	margin-top: 270px;
+	transform: rotate(300deg);
+	position: absolute;
+	background-color: ;
+	border-radius: 5px;
+}
+#bernard_left_leg{
+	width:75px;
+	height: 150px;
+	margin-left: 680px;
+	margin-top: 470px;
+	background-color: ;
+	position: absolute;
+}
+#bernard_right_leg{
+	width:75px;
+	height: 150px;
+	margin-left: 800px;
+	margin-top: 470px;
+	position: absolute;
+	background-color:;
+	position: absolute;
+}
+.bt{
+	background-color: white;
+	border: 4px: black;
+}
+#platform{
+	height: 100px;
+	width: 200px;
+	background-color: white;
+	border: 4px: black;
+	position: absolute;
+	margin-left: 675px;
+	margin-top: 625px;
+}
+#platform_p{
+
+	margin-top: 0px;
+	text-align: center;
+	vertical-align:center;
+	line-height: 100px;
+	font: Impact;
+	font-size: 40px;
+	font-family: 'VT323', monospace;
+}
+
+.button{
+	height: 150px;
+	width: 300px;
+	position: absolute;
+	background-color: #33cc33;
+	font-family: 'VT323', monospace;
+	font-size: 30px;
+}
+.button:hover{
+	background-color: #009933;
+	cursor: pointer;
+}
+#but1{
+	margin-top: 15%;
+	margin-left: 10%;
+}
+#but2{
+	margin-top: 35%;
+	margin-left: 10%;
+}
+#but3{
+	margin-left:70%;
+	margin-top: 15%;
+}
+#hacking_gif{
+	position: absolute;
+	height: 150px;
+	width:300px;
+	margin-left:70%;
+	margin-top: 15%;
+}
+
+#but4{
+	margin-top: 35%;
+	margin-left: 70%;
+}
+
+#abs{
+	height: 200px;
+	margin-left: 30px;
+	opacity: 0;
+	margin-top: -3px;
+}
