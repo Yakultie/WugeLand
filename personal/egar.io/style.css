@@ -1,0 +1,60 @@
+body{
+	background-color: #DBBFB6;
+
+}
+#game_div{
+	background-image: url("museum.jpg");
+	position: absolute;
+	width: 98%;
+	top: 40px;
+	bottom: 20px;
+	background-size: 100%;
+}
+.body_part{
+	background-color: white;
+
+}
+
+#head{
+	height:200px;
+	width: 175px;
+	top:20%;
+	left:20%;
+	position: relative;
+
+}
+#upper_body{
+	height: ;
+	width: ;
+	top:;
+	left:;
+	position: relative;
+}
+#l_arm{
+	height: ;
+	width: ;
+	top:;
+	left:;
+	position: relative;
+}
+#r_arm{
+	height: ;
+	width: ;
+	top:;
+	left:;
+	position: relative;
+}
+#l_leg{
+	height: ;
+	width: ;
+	top:;
+	left:;
+	position: relative;
+}
+#r_leg{
+	height: ;
+	width: ;
+	top:;
+	left:;
+	position: relative;
+}
