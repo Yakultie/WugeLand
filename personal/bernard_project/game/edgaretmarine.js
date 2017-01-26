@@ -1,5 +1,4 @@
-console.log("back off hackerssss");
-alert("please zoom out to 75% for optimum experience")
+alert("It is advised to zoom out to 75% for optimum experience. ")
 
 abs=document.getElementById('abs');
 
