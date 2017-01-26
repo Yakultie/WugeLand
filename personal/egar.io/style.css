@@ -2,6 +2,13 @@ body{
 	background-color: #DBBFB6;
 
 }
+
+.button{
+	height: 50px;
+	width: 100px;
+	background-color: blue;
+	position: absolute;
+}
 #game_div{
 	background-image: url("museum.jpg");
 	position: absolute;
@@ -18,7 +25,7 @@ body{
 #head{
 	height: 180px;
 	width: 175px;
-	top:15%;
+	top:17%;
 	left:20%;
 	position: absolute;
 
@@ -48,14 +55,14 @@ body{
 
 	height: 200px;
 	width: 75px;
-	top:71%;
+	top:67%;
 	left:19%;
 	position: absolute;
 }
 #r_leg{
 	height:200px ;
 	width: 75px;
-	top:71%;
+	top:67%;
 	left:25.5%;
 	position: absolute;
 
